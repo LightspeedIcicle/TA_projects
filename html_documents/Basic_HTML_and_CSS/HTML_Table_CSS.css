@@ -1,0 +1,21 @@
+table {
+    border: deepskyblue;
+    border-style: groove;
+    border-width: 3px;
+}
+
+th {
+    font-size: large;
+    background-color: rgb(11, 4, 59);
+    color: deepskyblue;
+}
+
+td {
+    background-color: burlywood;
+    color: black
+}
+
+td:hover {
+    background-color: white;
+    color: brown;
+}

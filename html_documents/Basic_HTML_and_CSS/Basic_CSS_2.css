@@ -1,0 +1,13 @@
+div {
+    background-color: purple;
+}
+p {
+    color: gold;
+    background-color: darkviolet;
+    font-size: medium;
+    text-align: center;
+}
+
+p#shadow {
+    text-shadow: 2px 2px #00FFFF;
+}
