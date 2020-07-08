@@ -1,0 +1,18 @@
+col.one {
+    background-color: violet;
+    column-span: 1;
+}
+
+col.two {
+    background-color: gold;
+    column-span: 2;
+}
+
+col.three {
+    background-color: skyblue;
+    column-span: 1;
+}
+
+colgroup {
+    width: 4fr;
+}
