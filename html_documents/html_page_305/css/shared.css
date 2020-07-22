@@ -138,7 +138,7 @@ section {
     letter-spacing: 5pt;
     word-spacing: 21pt;
     font-size: 4.5em;
-    text-align: left;
+    text-align: center;
     font-family: impact, sans-serif;
     line-height: 2;
     font-weight: 900;
@@ -292,3 +292,19 @@ section {
     background-color: #797a7b;
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);
 }
+
+.submit input[type='submit']:hover {
+    color: #000;
+    background-color: #8D8E8F;
+    box-shadow: inset 1px 2px 15px, 0 rgba(0, 0, 0, 0.5);
+}
+
+#footer {
+    background-color: rgba(100, 65, 0, .3);
+    Color: #000;
+    text-shadow: 2px 3pc 8px 0 (0, 0, 0, 0.4);
+    padding: 20px 50px 20px 50px;
+    text-align: right;
+}
+
+
