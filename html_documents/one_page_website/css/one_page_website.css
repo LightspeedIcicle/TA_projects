@@ -1,0 +1,14 @@
+body {
+    font-family: 'Unica One', cursive;
+}
+
+font-size {
+    font-size: medium;
+}
+
+input {
+    width: 300px;
+    margin-bottom: 20px;
+    border-style: ridge 2px lightblue;
+    border-radius: 3px;
+}
