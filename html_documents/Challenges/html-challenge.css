@@ -1,0 +1,141 @@
+img.c1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: saturate(160%);
+    border-radius: 15px;
+}
+
+div.photo {
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+div.overlay {
+    position: absolute;
+    top: 25%;
+    bottom: 50%;
+    align-items: flex-start;
+    left: 50%;
+    right: 50%;
+    font-size: xx-large;
+    width: 250px;
+    
+
+
+}
+
+footer {
+    display: block;
+    text-align: center;
+}
+
+p.foot {
+    font-weight: 700;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-color: gold;
+    border-style: double;
+    text-align: center;
+    font-size: large;
+}
+
+th {
+    background-color: darkviolet;
+    color: gold;
+    width: 100px;
+    padding: 10px;
+    border-color: magenta;
+    border-style: ridge;
+}
+
+td {
+    border-color: gold;
+    border-style: ridge;
+    background-color: lavender;
+    color: violet;
+    padding: 20px;
+}
+
+div.navigation {
+    background-color: rgba(29, 2, 41, .8);
+    top: 0;
+    display: inline;
+    position: fixed;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+.navigation a {
+    display: inline;
+    padding: 10px 15px;
+    color: gold;
+    text-decoration: none;
+    border-right: 3px solid gold;
+}
+
+.navigation a:last-child {
+    border-right: none;
+}
+
+.navigation a:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.column-1 {
+    display: grid;
+    width: 50%;
+    height: 500px;
+    color: darkblue;
+    background-color: lightblue;
+    justify-content: center;
+}
+
+p.column-1 {
+    width: auto;
+    height: 300px;
+    text-align: center;
+}
+
+p.column-1:hover { 
+    font-size: large;
+}
+
+.column-2 {
+    display: grid;
+    width: 50%;
+    height: 500px;
+    color: lightblue;
+    background-color: darkblue;
+    justify-content: center;
+} 
+
+p.column-2 {
+    width: auto;
+    height: 300px;
+    text-align: center;
+}
+
+p.column-2:hover {
+    font-size: large;
+}
+
+.row {
+    display: flex;
+}
+
+
+
+body {
+    background-color: rgb(184, 231, 243);
+}
