@@ -1,19 +1,20 @@
-window.alert("This is " + "a window");
+window.alert("This is " + "a window"); // Pop up window stating that it is a window.
 
-var x = "\"I\'m here.\" -Person who was here";
-
-
-
-var number = "#",
-    two = "2",
-    three = "3",
-    four = "4";
-
-number = number.fontcolor("yellow");
-two = two.fontcolor("blue");
-three = three.fontcolor("red");
-four = four.fontcolor("pink");
+x = "\"I\'m here." + "-Person who was here"; // variable with string concatenation
 
 
-document.write(numbers, one, two, three, four);
-document.write(1 + 2);
+
+var one = "1", // Changes one to 1
+    two = "2", // two to 2
+    three = "3", // three to 3
+    four = "4"; // four to 4
+
+one = one.fontcolor("yellow"); //Turns variable yellow
+two = two.fontcolor("blue"); // blue
+three = three.fontcolor("red"); //red
+four = four.fontcolor("pink"); //pink
+
+
+document.write(one, two, three, four); // Prints variables one, two, three, and four
+document.write(1 + 2); // Prints 1 plus 2
+document.write(" " + x) // Prints a space then variable x
