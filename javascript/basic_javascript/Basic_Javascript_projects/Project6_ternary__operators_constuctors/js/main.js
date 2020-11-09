@@ -20,9 +20,11 @@ var Person = new Rider("Female", 17, "Idaho", "Boise");      //Creating a new  o
 
 function Rider_Info() {               //Calling from the created object to concatenate a reply after hitting a button on the page
     document.getElementById("New_and_This").innerHTML = "The Rider is a " + Person.Rider_Age + " year old. They are from " + Person.Rider_City + ", " + Person.Rider_State;
+    var x = Person.Rider_Gender;
     function info() {
-        var x = Person.Rider_Gender;
         document.getElementById("Nested_Function").innerHTML = x;
     }
+
+    return info();
 }    
 
